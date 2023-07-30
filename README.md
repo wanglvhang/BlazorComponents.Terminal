@@ -61,7 +61,7 @@ async void answerEnter(TerminalEventArgs evenArgs)
 | OnCommandEnter  | 事件  | 命令输入Enter事件 | 
 | OnAnswerEnter | 事件 | 回复输入Enter事件 | 
 | OnCommandKeyDown| 事件 |命令输入按键(除了Enter键)事件  | 
-| OnAnswerKeyDown| 时间 | 回复输入按键(除了Enter键)事件 | 
+| OnAnswerKeyDown| 事件 | 回复输入按键(除了Enter键)事件 | 
 | GetCurrentParagraph| 方法 | 获取当前段落，也就是最后一个段落 | 
 | RespondText| 方法 | 回复文本内容 | 
 | RespondHtml| 方法 | 回复Html内容 | 
