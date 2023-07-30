@@ -20,6 +20,10 @@ a blazor components of  command line terminal on web
 <BlazorTerminal @ref="blazorTerminal" Style="height:600px;" OnCommandEnter="commandEnter" OnAnswerEnter="answerEnter"></BlazorTerminal>
 ```
 
+# Terminology / 术语
+在该组件的语境中，终端内的所有内容都被称为**段落(TerminalParagraph)**. 段落大致被分为两类：**命令(Command)段落**和**回复(Respond)段落**,其中回复段落内也可能需要输入内容，这杯称为**回复输入(Answer)**。
+
+
 # API
 
 | API| 类型|说明 |
@@ -36,6 +40,7 @@ a blazor components of  command line terminal on web
 | Clear | 方法 |  | 
 | ConfigPrompt| |  | 
 | TerminalEventArgs| 类 |  | 
+| TerminalParagraph| 类 |  | 
 
 
 # Style
