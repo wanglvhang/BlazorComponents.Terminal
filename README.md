@@ -36,3 +36,13 @@ a blazor components of  command line terminal on web
 | Clear | 方法 |  | 
 | ConfigPrompt| |  | 
 | TerminalEventArgs| 类 |  | 
+
+
+# Style
+
+
+
+
+
+
+
