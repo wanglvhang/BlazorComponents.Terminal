@@ -18,3 +18,17 @@ a blazor components of  command line terminal on web
 
 # API
 
+| API| 类型|说明 |
+| ----- | ---- | ----- |
+|OnCommandEnter  | 事件  |  | 
+| OnAnswerEnter | 事件 |  | 
+| OnCommandKeyDown| 事件 |  | 
+| OnAnswerKeyDown| 时间 |  | 
+| GetCurrentParagraph| 方法 |  | 
+| RespondText| 方法 |  | 
+| RespondHtml| 方法 |  | 
+| RespondImage| 方法 |  | 
+| Return| 方法 |  | 
+| Clear | 方法 |  | 
+| ConfigPrompt| |  | 
+| TerminalEventArgs| 类 |  | 
