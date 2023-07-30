@@ -3,6 +3,10 @@ a blazor components of  command line terminal on web
 
 ![image](https://github.com/wanglvhang/BlazorComponents.Terminal/assets/936437/3c08a3ac-c31e-4fc4-964d-bcca7470421a)
 
+# TODO
+1.auto complete 自动完成功能
+2.more theme 更多样式
+
 # Setup
 在项目中引用 BlazorComponents.Terminal nuget 包，然后在项目中添加样式与组件，如下所示
 
