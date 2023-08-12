@@ -21,7 +21,6 @@
 
     protected override void OnAfterRender(bool firstRender)
     {
-
         base.OnAfterRender(firstRender);
 
         if (firstRender)
@@ -31,7 +30,7 @@
             //blazorTerminal.ResponseText("input ask,html,text,help,? for demonstration");
 
             var para = blazorTerminal.RespondText("");
-            para.AddTextLine("-/-*".Repeat(16));
+            para.AddTextLine("-=-=".Repeat(20));
             para.AddTextLine(@" ________                                __                   __ ");
             para.AddTextLine(@"|        \                              |  \                 |  \");
             para.AddTextLine(@" \▓▓▓▓▓▓▓▓ ______   ______  ______ ____  \▓▓_______   ______ | ▓▓");
@@ -42,10 +41,11 @@
             para.AddTextLine(@"   | ▓▓   \▓▓     \ ▓▓     | ▓▓ | ▓▓ | ▓▓ ▓▓ ▓▓  | ▓▓\▓▓    ▓▓ ▓▓");
             para.AddTextLine(@"    \▓▓    \▓▓▓▓▓▓▓\▓▓      \▓▓  \▓▓  \▓▓\▓▓\▓▓   \▓▓ \▓▓▓▓▓▓▓\▓▓");
             para.AddTextLine(@" ");
+            para.AddTextLine($" version:{blazorTerminal.Version()}");
             para.AddTextLine("- ".Repeat(30));
             para.AddTextLine("BlazorComponents.Terminal is a terminal style web ui component.");
             para.AddTextLine("input progress,image,password,lines,ask,html,text,help,? for demonstration");
-
+            para.AddTextLine("-=-=".Repeat(20));
             //
             blazorTerminal.ConfigPrompt(new CommandPrompt()
                 {
@@ -124,7 +124,7 @@
 
     async void answerEnter(TerminalEventArgs evenArgs)
     {
-        blazorTerminal.RespondText($"answer input {evenArgs.InputValue}");
+        blazorTerminal.RespondText($"answer input: {evenArgs.InputValue}");
 
         blazorTerminal.Return();
     }

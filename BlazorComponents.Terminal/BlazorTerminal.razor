@@ -266,6 +266,12 @@
     }
 
 
+    public string Version()
+    {
+        return System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+    }
+
+
 
     //private async Task _commandEnter(string input)
     //{

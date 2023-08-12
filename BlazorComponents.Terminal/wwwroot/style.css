@@ -11,8 +11,8 @@
 
     .bc-terminal > .bc-paragraph {
         display: flex;
-        padding-top: 4px;
-        padding-bottom: 4px;
+        padding-top: 2px;
+        padding-bottom: 2px;
     }
 
     .bc-terminal .bc-terminal-input {
