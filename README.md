@@ -2,6 +2,8 @@
 这是一个基于Blazor的模拟终端样式的UI组件
 a blazor components of  command line terminal on web
 
+[demo/演示](https://static.lvhang.site/blazorterminal/)  
+
 ![image](https://github.com/wanglvhang/BlazorComponents.Terminal/assets/936437/3c08a3ac-c31e-4fc4-964d-bcca7470421a)
 
 # TODO
